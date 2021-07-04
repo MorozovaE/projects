@@ -1,16 +1,30 @@
-@import url(nav.css);
-@import url(banner.css);
+@media (max-width: 1178px) {
+  .t-item {
+    font-size: 13px;
+    text-align: center;
+  }
+  .f-item,
+  .s-item {
+    text-align: center;
+  }
+}
+@media (max-width: 935px) {
+  .t-item {
+    font-size: 10px;
+    text-align: center;
+  }
+}
 * {
   margin: 0;
 }
-
 .banner {
-  height: 667px;
+  height: 607px;
   background: url(img/banner-bg.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -19,7 +33,7 @@
   font-family: "Noto Serif JP", serif;
   border-radius: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   padding-bottom: 15px;
@@ -41,15 +55,8 @@
   font-size: 15px;
   margin: 10px;
 }
-@media (max-width: 1178px) {
-  .t-item {
-    font-size: 13px;
-    text-align: center;
-  }
+.cont-us {
+  width: 200px;
+  display: block;
 }
-@media (max-width: 935px) {
-  .t-item {
-    font-size: 10px;
-    text-align: center;
-  }
-}
+
