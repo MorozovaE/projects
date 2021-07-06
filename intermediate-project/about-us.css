@@ -1,0 +1,17 @@
+.f-about-us {
+    height: 200px;
+    font-family: "Noto Serif JP", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-us {
+    text-align: center;
+    font-size: 22px;
+    font-weight :1000;
+    border-bottom: 1px solid;
+}
+.quote {
+
+}
