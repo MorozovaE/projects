@@ -1,15 +1,3 @@
-@media (max-width: 1178px) {
-  .t-item {
-    font-size: 13px;
-    text-align: center;
-  }
-}
-@media (max-width: 935px) {
-  .t-item {
-    font-size: 10px;
-    text-align: center;
-  }
-}
 .f-banner {
   height: 670px;
   background: url(img/banner-bg.png);
@@ -24,7 +12,6 @@
 }
 .info {
   background-color: #616a75;
-  font-family: "Noto Serif JP", serif;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -44,14 +31,13 @@
 }
 .t-item {
   color: #ffffff;
-  font-size: 15px;
+  font-size: 13px;
   margin: 10px;
 }
 .cont-us {
   margin-top: 90px;
   background-color: #03174c;
   color: #ffffff;
-  font-family: "Noto Serif JP", serif;
   font-size: large;
   border-radius: 10px;
   width: 210px;
@@ -76,5 +62,28 @@
 .r-arr {
   background-color: #ffffff;
   left: 50px;
+}
+@media (max-width : 420px ) {
+  .cont-us {
+    align-self: flex-end;
+  }
+  .f-item {
+    font-size: 30px;
+  }
+  .s-item{
+    font-size: 18px;
+  }
+}
+@media (max-width: 1178px) {
+  .t-item {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+@media (max-width: 935px) {
+  .t-item {
+    font-size: 10px;
+    text-align: center;
+  }
 }
 
