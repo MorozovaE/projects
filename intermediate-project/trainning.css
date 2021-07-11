@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    width: 100%;
+    width: 97%;
 }
 .f-tr-img , .s-tr-img ,.t-tr-img {
    margin: 25px 10px 0 10px;
@@ -29,6 +29,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 96%;
 }
 .tr-headers>span {
     color: #000000;
@@ -36,8 +37,9 @@
 }
 .tr-description {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    width: 99%;
 }
 .tr-description>span {
     color: #000000;

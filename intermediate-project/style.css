@@ -3,6 +3,7 @@
 @import url(about-us.css);
 @import url(gym.css);
 @import url(trainning.css);
+@import url(trainer.css);
 * {
   margin: 0;
   font-family: "Noto Serif JP", serif;
