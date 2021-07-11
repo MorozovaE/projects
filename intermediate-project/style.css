@@ -2,6 +2,7 @@
 @import url(banner.css);
 @import url(about-us.css);
 @import url(gym.css);
+@import url(trainning.css);
 * {
   margin: 0;
   font-family: "Noto Serif JP", serif;

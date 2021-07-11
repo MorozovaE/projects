@@ -35,7 +35,7 @@
   margin: 10px;
 }
 .cont-us {
-  margin-top: 90px;
+  margin-top: 55px;
   background-color: #03174c;
   color: #ffffff;
   font-size: large;
@@ -47,11 +47,12 @@
 .arrows {
   text-align: center;
 }
-.r-arr , .l-arr {
+.r-arr,
+.l-arr {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  line-height: 35px; 
+  line-height: 35px;
   position: absolute;
   bottom: 0;
 }
@@ -63,14 +64,14 @@
   background-color: #ffffff;
   left: 50px;
 }
-@media (max-width : 420px ) {
+@media (max-width: 420px) {
   .cont-us {
     align-self: flex-end;
   }
   .f-item {
     font-size: 30px;
   }
-  .s-item{
+  .s-item {
     font-size: 18px;
   }
 }
@@ -86,4 +87,3 @@
     text-align: center;
   }
 }
-
