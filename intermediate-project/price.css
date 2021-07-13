@@ -1,0 +1,241 @@
+.price-conteiner {
+  display: grid;
+  grid-template-rows: 12% 14% 19% 24% 6% 8% 37%;
+  grid-template-columns: 33.1% 33.1% 33.1%;
+  grid-template-areas:
+    "first-header first-header first-header "
+    "discription discription discription"
+    "prices prices prices"
+    "price-buttons price-buttons price-buttons"
+    "second-header second-header second-header"
+    "price-info price-info price-info"
+    "form . .";
+}
+.first-header {
+  grid-area: first-header;
+  text-align: center;
+  margin-top: 4%;
+  font-size: 2.5vw;
+  font-weight: 1000;
+}
+.first-header > span:last-child {
+  border-bottom: 2px solid #7ecffe;
+  display: inline-block;
+}
+.first-header > span {
+  color: #000000;
+  display: block;
+}
+.price-discription {
+  color: #000000;
+  grid-area: discription;
+  text-align: center;
+  margin-top: 4%;
+  font-size: small;
+  font-size: 2vw;
+}
+.f-price,
+.s-price,
+.t-price {
+  margin-left: 7%;
+  width: 19%;
+  height: 107%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3%;
+  box-shadow: 10px 2px 47px -2px;
+}
+.f-price {
+  grid-area: f-price;
+  background-color: #032431;
+}
+.f-price > span,
+.s-price > span,
+.t-price > span {
+  display: block;
+  text-align: center;
+  font-size: 1.2vw;
+}
+.s-price {
+  grid-area: s-price;
+}
+.t-price {
+  grid-area: t-price;
+}
+.s-price,
+.t-price {
+  background-color: #03174c;
+}
+.f-price > span:first-child,
+.s-price > span:first-child,
+.t-price > span:first-child {
+  font-size: 1.9vw;
+}
+.f-price > span:last-child,
+.s-price > span:last-child,
+.t-price > span:last-child {
+  color: #fe6805;
+}
+.cost {
+  font-size: 3vw;
+}
+.prices {
+  grid-area: prices;
+  display: flex;
+}
+.price-buttons {
+  grid-area: price-buttons;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.price-buttons > button {
+  width: 12%;
+  height: 19%;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1.2vw;
+  cursor: pointer;
+}
+.price-buttons > button:nth-child(even) {
+  background-color: #fe6805;
+}
+.price-buttons > button:last-child,
+.price-buttons > button:first-child {
+  background-color: #03174c;
+}
+.second-header {
+  grid-area: second-header;
+  font-weight: 900;
+  font-size: 3vw;
+}
+.price-info {
+  grid-area: price-info;
+  font-size: 2vw;
+}
+.second-header,
+.price-info {
+  text-align: center;
+}
+form {
+  background-image: url(img/contact-bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 127%;
+  width: 120%;
+  padding-right: 5%;
+  grid-area: form;
+}
+input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+ 
+  outline:none;
+}
+.name,
+.email ,
+.phone,
+.message{
+  background-color: #03174c00;
+  border: none;
+  border-bottom: 1px solid #fff;
+  width: 77%;
+  margin-left: 15%;
+  cursor: pointer;
+  margin-top: 8%;
+}
+[placeholder="Your Name"],
+[placeholder="Email"],
+[placeholder="Phone"] ,
+[placeholder="Message"]{
+  color: #ffa500;
+  font-size: 1.8vw;
+}
+.form-header {
+  color: #ffffff;
+  margin-left: 15%;
+  margin-top: 13%;
+  font-size: 1.9vw;
+}
+.but-send {
+    margin-top: 4%;
+    background-color: #000000;
+    color: #fff;
+    margin-left: 15%;
+    width: 28%;
+    border: 0;
+    border-radius: 4PX;
+    padding: 1%;
+    font-size: 1.2vw;
+    height: 6%;
+    cursor: pointer;
+}
+.but-send:hover {
+    box-shadow: 0px 0px 10px 0px;
+}
+/* @media (max-width : 600px ) {
+    .price-info {
+        font-size: 13px;
+    }
+}
+@media (max-width: 640px) {
+  .prices ,.price-buttons {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  .price-buttons>button {
+    margin: 5%;
+    margin-top: -59px;
+    width: 15%;
+    height: 8%;
+}
+.l {
+  margin-bottom: 9%;
+}
+.prices>.f-price , 
+.prices>.s-price , 
+.prices>.t-price {
+  height: 79%;
+  margin: 4%;
+  margin-left: 17%;
+  width: 18%;
+}
+  .price-conteiner {
+    display: grid;
+    grid-template-rows: 7% 11% 12% 42% 10% 8% 23%;
+    grid-template-columns: 33.1% 33.1% 33.1%;
+    grid-template-areas:
+        "first-header first-header first-header "
+        "discription discription discription"
+        "prices prices prices"
+        "price-buttons price-buttons price-buttons"
+        "second-header second-header second-header"
+        "price-info price-info price-info"
+        "form . .";
+} */
+ /* @media (max-width: 640px) {
+  .price-conteiner {
+    display: grid;
+    grid-template-rows: 1fr 20% 50% 1fr 20% 10% 30%;
+    grid-template-columns: 33.1% 33.1% 33.1%;
+    grid-template-areas:
+      "first-header first-header first-header "
+      "discription discription discription"
+      "prices prices price-button"
+      "seconod-header seconod-header seconod-header"
+      "info info info"
+      "iframe . .";
+  }
+  .prices,
+  .price-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+} */

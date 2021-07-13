@@ -18,7 +18,6 @@
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: flex-start;
-    font-size: 15px;
   }
   .nav-butt {
     display: flex;
@@ -35,11 +34,15 @@
   nav {
     background-color: #03174c;
     width: 100%;
+    height: 16%;
+  }
+  nav>a>span {
+    font-size: 2vw;
   }
   .menu {
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
+    padding-top: 3%
   }
   span {
     font-family: "Noto Serif JP", serif;

@@ -1,9 +1,9 @@
 .trainer-conteiner {
-    display: flex;
-    flex-direction: column;
-    background: url(img/img-4.png) no-repeat;
-    background-size: 100%;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: url(img/img-4.png) no-repeat;
+  background-size: 100%;
+  width: 100%;
 }
 .header-trainer {
   font-size: 3vw;
@@ -11,22 +11,22 @@
   width: 60%;
 }
 .content-trainer {
-    margin-left: 7%;
-    width: 66%;
-    font-size: 1.6vw;
+  margin-left: 7%;
+  width: 66%;
+  font-size: 1.6vw;
 }
 .trainer-button {
-    width: 25%;
-    height: 4.8vw;
-    font-size: 1.5vw;
-    background-color: #fe6805 ;
-    color: #fff;
-    cursor: pointer;
-    border: 0;
-    border-radius: 5px;
-    margin : 2% 0 5% 7%;
-    white-space:nowrap;
+  width: 20%;
+  height: 4.8vw;
+  font-size: 1.5vw;
+  background-color: #fe6805;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  margin: 2% 0 5% 7%;
+  white-space: nowrap;
 }
 .first-word {
-    display: block;
+  display: block;
 }

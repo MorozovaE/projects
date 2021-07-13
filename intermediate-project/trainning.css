@@ -51,14 +51,14 @@
     white-space: pre-wrap;
 }
 .tr-butt {
-    width: 128px;
-    height: 38px;
+    width: 16%;
     background-color: #041d2c;
     color: #ffff;
     border: 0;
-    margin: 40px 0 40px calc(50% - 64px);
+    margin: 40px 0 40px calc(50% - 8%);
     border-radius: 4px;
     cursor: pointer;
+    padding: 1%;
 }
 @media (max-width : 500px) {
     .tr-headers {
