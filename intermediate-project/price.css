@@ -47,6 +47,12 @@
   padding: 3%;
   box-shadow: 10px 2px 47px -2px;
 }
+.f-price:hover,
+.s-price:hover,
+.t-price:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
 .f-price {
   grid-area: f-price;
   background-color: #032431;
@@ -106,6 +112,13 @@
 .price-buttons > button:last-child,
 .price-buttons > button:first-child {
   background-color: #03174c;
+}
+.price-buttons > button:nth-child(even):hover{
+ background-color: #032431;
+}
+.price-buttons > button:last-child:hover,
+.price-buttons > button:first-child:hover {
+ background-color: #fe6805;
 }
 .second-header {
   grid-area: second-header;

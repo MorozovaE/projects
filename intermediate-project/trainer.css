@@ -30,3 +30,8 @@
 .first-word {
   display: block;
 }
+.trainer-button:hover {
+  background-color: #fff;
+  color: #fe6805;
+ }
+ 

@@ -49,6 +49,10 @@
   margin-left: calc(50% - 50%);
   border: 0;
 }
+.cont-us:hover{
+  background-color: #ffffff;
+  color: #03174c;
+}
 .arrows {
   text-align: center;
 }

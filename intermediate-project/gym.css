@@ -38,6 +38,10 @@
   margin-left: 150px;
   cursor: pointer;
 }
+.but-more:hover {
+ background-color: #fff;
+ color: #fe6805;
+}
 @media (max-width: 1000px) {
   .gym {
     display: flex;
