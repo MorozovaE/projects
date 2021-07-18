@@ -1,0 +1,10 @@
+.main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-photo {
+    max-width: 55%;
+    width: 100%;
+    align-self: center;
+}

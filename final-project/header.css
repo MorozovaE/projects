@@ -1,0 +1,101 @@
+header {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: row;
+  align-items: center;
+}
+.header-logo {
+  margin: auto;
+}
+.logo-photo {
+  width: 100%;
+  max-width: 100px;
+  margin: auto;
+}
+.logo-name {
+  font-family: "Nanum Myeongjo", serif;
+  margin: auto;
+  font-size: 6vw;
+  border-bottom: 2px solid #71c371;
+}
+.menu {
+  max-width: 14%;
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+  align-self: flex-end;
+  margin: auto;
+  border: 2px solid #00800047;
+}
+#check-menu {
+  display: none;
+}
+.label-check {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+  line-height: 40px;
+}
+.burger-line {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 35px;
+  height: 2px;
+  background-color: #689e66;
+  transition: 0.5s all;
+}
+.second,
+.third {
+  top: 18px;
+}
+.fourth {
+  top: 28px;
+}
+.main-menu {
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  transform: translateY(100%);
+  overflow-x: hidden;
+  max-height: 0;
+  font-size: 0;
+  overflow: hidden;
+  transition: 0.5s all;
+}
+.main-menu > a {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+  border-top: 1px solid #8080806b;
+  background-color: #689e6833;
+}
+.main-menu > a:hover {
+  background-color:#a1daa133 ;
+}
+#check-menu:checked ~ .main-menu {
+  max-height: 500px;
+  font-size: 16px;
+}
+#check-menu:checked ~ .first,
+#check-menu:checked ~ .fourth {
+  display: none;
+}
+#check-menu:checked ~ .third {
+  transform: rotate(-45deg);
+}
+#check-menu:checked ~ .second {
+  transform: rotate(45deg);
+}
