@@ -1,10 +1,32 @@
-.main-info {
+main {
+    position: absolute;
+    top: 20%;
+    z-index: 0;
+}
+.main-info, .recreation-areas {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
 }
 .main-photo {
     max-width: 55%;
     width: 100%;
     align-self: center;
+}
+.headers {
+   align-self: center;
+    margin: 2%;
+    width: fit-content;
+    border-bottom: 2px solid #71c371;
+    font-size: 42px;
+    line-height: 36px;
+}
+.about-us {
+    max-width: 60%;
+    width: 100%;
+    text-align: justify;
+}
+.about-us{
+    font-size: 20px;
 }
