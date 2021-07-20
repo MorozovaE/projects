@@ -1,0 +1,52 @@
+.buttons-contacts > button {
+    color: black;
+    background-color: #827f23;
+    border: none;
+    height: 38px;
+    border-radius: 4%;
+    margin: 3%;
+    padding: 2%;
+    width: 22vh;
+    font-size: 17px;
+    cursor: pointer;
+}
+.buttons-contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-cont-and-price {
+  margin-bottom: 2%;
+  text-align: center;
+}
+.buttons-contacts > button:hover {
+    background-color: #111;
+    color: #827f23;
+    border: 2px solid #827f23;
+}
+.map {
+  text-align: center;
+}
+iframe {
+  max-width: 400px;
+  width: 85%;
+   height:300px;
+    border:0;
+}
+form {
+  background-color: teal;
+}
+input{
+  width: 100%;
+  max-width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea {
+  width: 30%;
+}
