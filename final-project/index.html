@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link href="img/logo.jpg" >
+    <link href="img/logo.jpg"  rel="shortcut icon" type="image/png">
     <title>Dомик у Лиsы</title>
   </head>
   <body>
@@ -114,34 +114,24 @@
           loading="lazy"></iframe>
         </section>
         <form>
-          <div>Оставить заявку</div> 
-        <div><label for="name">Ваше имя</label></div> 
-         <div> <input 
+          <div class="request">Оставить заявку</div> 
+         <label for="name">Ваше имя</label>
+          <input 
           type="text" 
           name="name" 
           id="name" 
           placeholder="ФИО">
-        </div>
-        <div>
           <label for="phone">Ваш телефон</label>
-        </div>
-        <div>
           <input type="tel"
            name="phone" 
            id="phone"
            placeholder="Номер телефона"
            >
-          </div>
-          <div>
            <label for="comment">Напишите нам свои пожелания</label>
-          </div>
-          <div>
-           <textarea 
+           <input type="text"
            name="comment" 
-           placeholder="Сообщение"></textarea>
-          </div>
-          
-           <button name="submit">Отправить</button>
+           placeholder="Сообщение">
+           <button class="submit" name="submit">Отправить</button>
         </form>
       </main>
       <footer></footer>
