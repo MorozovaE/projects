@@ -1,6 +1,6 @@
 header {
   display: flex;
-  background-color: #ffffff9d;
+  background-color: #ffffffed;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -8,9 +8,6 @@ header {
   width: 100%;
   z-index: 2;
 }
-/* .header-logo, .logo-name ,menu{
-  margin: auto;
-} */
 .logo-photo {
   width: 100%;
   max-width: 100px;
@@ -29,7 +26,7 @@ header {
   position: relative;
   color: #ffffff;
   padding-right: 3%;
-  border: 2px solid #00800047;
+  border: 2px solid #2d3f2d78;
 }
 #check-menu {
   display: none;
@@ -81,7 +78,7 @@ header {
   color: #000;
   text-decoration: none;
   border-top: 1px solid #8080806b;
-  background-color: #689e68db;
+  background-color: #97dd97db;;
 }
 .main-menu > a:hover {
   background-color:#a1daa1af ;

@@ -21,7 +21,6 @@
     <title>Dомик у Лиsы</title>
   </head>
   <body>
-    <div class="wrapper">
       <header>
         <a href="#" class="header-logo">
           <img class="logo-photo" src="img/logo.jpg" alt="logo"
@@ -126,6 +125,7 @@
            name="phone" 
            id="phone"
            placeholder="Номер телефона"
+           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
            >
            <label for="comment">Напишите нам свои пожелания</label>
            <input type="text"
@@ -133,8 +133,18 @@
            placeholder="Сообщение">
            <button class="submit" name="submit">Отправить</button>
         </form>
+        <footer>
+          <div class="num-links"> 
+           <a href="tel:+375297585145">+375(29)-75-85-145</a>
+           <a href="tel:+375445434447">+375(44)-54-34-447</a>
+          </div>
+          <div class="coop"><span>&#169;</span>Dомик у Лиsы</div>
+          <div class="icons-social-media">
+            <img src="img/vk-icon.png" alt="vk-icon">
+            <img src="img/insta-icon.png" alt="insta-icon">
+            <img src="img/facebook.png" alt="facebook-icon">
+          </div>
+        </footer>
       </main>
-      <footer></footer>
-    </div>
   </body>
 </html>
