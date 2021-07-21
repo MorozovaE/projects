@@ -51,11 +51,12 @@
     white-space: pre-wrap;
 }
 .tr-butt {
-    width: 16%;
+    width: 100%;
+    max-height: 30%;
     background-color: #041d2c;
     color: #ffff;
     border: 0;
-    margin: 40px 0 40px calc(50% - 8%);
+    margin: 40px 0 40px calc(50% - 15%);
     border-radius: 4px;
     cursor: pointer;
     padding: 1%;
