@@ -53,6 +53,7 @@
     flex-direction: row;
     align-items: flex-start;
     padding-bottom: 20px;
+    margin-top: 5%;
   }
   .search {
     margin-right: 10%;
@@ -60,5 +61,14 @@
   }
   a {
     text-decoration: none;
+  }
+  .toggle-img{
+    width: 100%;
+    max-width: 60%;
+  }
+  @media (max-width: 600px) {
+    .menu>a {
+      font-size : 12px;
+    }
   }
   
