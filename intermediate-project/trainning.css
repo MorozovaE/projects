@@ -71,3 +71,8 @@
         font-size: 11px ;
     } 
 }
+@media (max-width:360px) {
+    .tr-header {
+        font-size: 25px;
+    }
+}
