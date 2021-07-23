@@ -89,3 +89,13 @@
   }
 }
 }
+@media (max-width: 500px) {
+  .r-arr, .l-arr {
+    width: 30px;
+    height: 30px;
+    line-height: 23px;
+  }
+  .r-arr{
+    left: 42px;
+  }
+}
