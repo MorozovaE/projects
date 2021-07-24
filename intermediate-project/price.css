@@ -1,7 +1,7 @@
 .price-conteiner {
   display: grid;
   grid-template-rows: 12% 14% 19% 24% 6% 8% 37%;
-  grid-template-columns: 33.1% 33.1% 33.1%;
+  grid-template-columns: 30.1% 33.1% 33.1%;
   grid-template-areas:
     "first-header first-header first-header "
     "discription discription discription"
@@ -30,8 +30,8 @@
   color: #000000;
   grid-area: discription;
   text-align: center;
-  margin-top: 4%;
-  font-size: small;
+  margin: 4% 0 15% 0;
+  padding: 0 5%;
   font-size: 2vw;
 }
 .f-price,
@@ -140,6 +140,7 @@ form {
   height: 127%;
   width: 120%;
   padding-right: 5%;
+  margin-top: 7%;
   grid-area: form;
 }
 input {
@@ -188,4 +189,14 @@ input {
 }
 .but-send:hover {
   box-shadow: 0px 0px 10px 0px;
+}
+@media (max-width : 418px) {
+  .first-header {
+    font-size: 12px;
+}
+}
+@media (max-width: 600px) {
+  form{
+    width: 140%;
+  }
 }

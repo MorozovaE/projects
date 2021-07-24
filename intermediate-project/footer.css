@@ -1,0 +1,48 @@
+footer {
+    width: 100%;
+    background-color: #03174c;
+    color: #f0f8ff;
+    margin-top: 26%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-contacts{
+    margin: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-contacts>div {
+    margin :2%;
+    font-size: 1vw;
+}
+.help-div{
+    display: flex;
+    flex-direction: column;
+}
+.copyrating {
+    font-size: 1vw;
+    margin-bottom: 2%;
+}
+.map-icon , .phone-icon, .email-icon {
+    width: 8%;
+}
+.numb , .adress {
+    white-space: nowrap;
+}
+.social-network {
+    margin: 1%;
+    text-align: center;
+}
+.social-network>img {
+    width: 20%;
+}
+@media (max-width: 450px) {
+    .social-network>img {
+     width: 18%;
+    }
+}
