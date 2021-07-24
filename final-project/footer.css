@@ -1,0 +1,41 @@
+.num-links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 3%;
+    grid-area: numbers;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 45%;
+    grid-template-rows: 50% 25% 25%;
+    grid-template-areas: 
+    ". numbers"
+    "icons icons"
+    "cooperate cooperate";
+    background-color: #344334;
+}
+.num-links>a {
+    color: white;
+    white-space: nowrap;
+    margin-top: 4%;
+    font-size: 15px;
+}
+.coop {
+    grid-area: cooperate;
+    text-align: center;
+    margin: 1% 0 1% 0;
+}
+.icons-social-media >img{
+  width: 30px;
+}
+.icons-social-media{
+    grid-area: icons;
+    text-align: center;
+    margin-top: 2%;
+}
+@media (max-width:750px) {
+    .icons-social-media{
+        margin-top: 0;
+    }
+}
