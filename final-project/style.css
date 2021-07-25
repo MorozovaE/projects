@@ -7,3 +7,28 @@
   margin: 0;
   padding: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
+.arrow-up{
+  position: fixed;
+  right: 3%;
+  bottom: 5%;
+  background: linear-gradient(130deg,#b3e875 50%, #5f8632 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 15px;
+  background-size: 250%;
+  transition: .5s;
+  z-index: 1;
+}
+.arrow-up:hover{
+  background-position: 100% 0;
+}
+.arrow-up>svg{
+  color: #000;
+  width: 28px;
+  height: 28px;
+}
