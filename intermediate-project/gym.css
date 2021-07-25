@@ -2,7 +2,8 @@
   background-color: black;
   color: #fff;
   display: grid;
-  grid-template-rows: 105px 320px 70px 0;
+  grid-template-rows: 105px 320px 70px;
+  grid-template-columns: 73% 39.1%;
   grid-template-areas:
     "header img"
     "content ."
@@ -21,7 +22,7 @@
   font-size: 15px;
 }
 .img-container {
-  width: 100%;
+  width: 69%;
 }
 .gym-img {
   width: 100%;
