@@ -78,6 +78,11 @@
     width: 100%;
     max-width: 60%;
   }
+  @media (max-width: 950px) {
+    nav{
+      height: 19%;
+    }
+  }
   @media (max-width: 610px) {
     .menu>.nav-menu>a {
       font-size : 11px;
