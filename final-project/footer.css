@@ -28,6 +28,7 @@ footer {
 }
 .icons-social-media >img{
   width: 30px;
+  cursor: pointer;
 }
 .icons-social-media{
     grid-area: icons;
