@@ -15,11 +15,15 @@ header{
 header>div>span{
     display: table-caption;
 }
-
 .last-name,.first-name{
     border-left: 6px solid #fff;
     line-height: 18px;
     padding-left: 5%;
+    transition: all 0.8s ease;
+    cursor:pointer;
+}
+.first-name{
+    border-top: #fff 1px solid;
 }
 .last-name{
     margin-left: 30%; 
@@ -34,4 +38,22 @@ header>div{
     margin: auto;
     text-transform: uppercase;
     font-family: 'Rajdhani', sans-serif; 
+    border-top: #fff 1px solid;
+    border-right: 1px solid transparent;
+    transition: all 0.3s ease;
 }
+.first-name:hover {
+    margin-left:15%;
+}
+.last-name:hover{
+    margin-left:40%;
+}
+.nav-elements> a{
+    color: #fff;
+}
+.nav-elements:hover{
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid black;
+}
+   
